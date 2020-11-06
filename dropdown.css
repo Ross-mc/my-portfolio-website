@@ -1,0 +1,43 @@
+.mobile-nav{
+    position: fixed;
+    z-index: 1;
+    background-color:rgba(35,40,45,1);
+    top: 0;
+    left: 0;
+    right: 0;
+    align-items: middle;
+    display: inline;
+    justify-content: space-around;
+    text-align: center;
+    min-height: 10vh;
+}
+
+
+#dropbtn{
+    position: absolute;
+    z-index: 3;
+    left: 49%;
+    transform: translate(-50%);
+    color: whitesmoke;
+    background-color: #008B8B;
+    border: #008B8B;
+
+}
+
+#close{
+    position: absolute;
+    display: none;
+    z-index: 1;
+    right: 5px;
+    color: whitesmoke;
+    background-color: #008B8B;
+    border: #008B8B;
+}
+
+.dropdown-link{
+    display: none;
+    height: 1vh;
+    z-index: 2;
+    margin-top: 20px;
+    margin-right: 40px;
+}

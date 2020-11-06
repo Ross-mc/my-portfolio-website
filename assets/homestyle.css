@@ -1,0 +1,441 @@
+html {
+    font-size: 18px;
+    color: white;
+    margin: 0;
+
+}
+
+
+body{
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    min-height: 100%;
+    padding: 0;
+    text-align: center;
+
+
+}
+
+#fullNav{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    margin-top: 2vh;
+}
+
+
+.current{
+    color: #008B8B;
+}
+
+.current:hover{
+    color: #008B8B;
+    text-decoration: none;
+}
+
+
+.navLink:hover{
+    color: #008B8B;
+    text-decoration: none;
+}
+
+.nav-item{ 
+    float: left;
+    padding-left: 1vw;
+    font-size: 20px;
+
+}
+
+
+.mobile-nav{
+    position: fixed;
+    z-index: 1000;
+    background-color:rgba(35,40,45,1);
+    top: 0;
+    left: 0;
+    right: 0;
+    align-items: middle;
+    display: inline;
+    justify-content: space-around;
+    text-align: center;
+    min-height: 10vh;
+    width: 100%;
+}
+
+.dropdown{
+    position: relative;
+    width: 100%;
+}
+
+
+
+#dropbtn{
+    position: absolute;
+    z-index: 1000;
+    left: 50%;
+    margin-top: 1.6vh;
+    transform: translate(-50%);
+    color: whitesmoke;
+    background-color: #008B8B;
+    border: #008B8B;
+
+}
+
+#close{
+    position: absolute;
+    display: none;
+    z-index: 1000;
+    right: 2vw;
+    top: 2vh;
+    color: whitesmoke;
+    background-color: #008B8B;
+    border: #008B8B;
+}
+
+.dropdown-link{
+    display: none;
+    height: 1vh;
+    z-index: 1000;
+    border-top: #008B8B;
+    border-top-style: solid;
+    border-top-width: 1px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    line-height: 1vh;
+}
+
+.bg-img{
+    background: url("StQoF5M.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+    filter: invert(18%) sepia(2%) saturate(5%) hue-rotate(42deg) brightness(25%) contrast(94%);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -150;
+    display: block;
+    background-color: #333333;
+}
+
+.my-container {
+    position: absolute;
+    z-index: 100;
+    min-height: 94vh;
+    width: 100%;
+    margin-top: 4vh;
+    left: 50%;
+    transform: translate(-50%);
+
+}
+
+
+.content {
+    position: relative;
+    margin-top: 10vh;
+    color: whitesmoke;
+    padding-bottom: 100px;
+    margin-bottom: 1vh;
+
+
+
+}
+
+.responsive-text{
+    font-size: 16px;
+    width: 95%;
+    margin: 1vh auto;
+}
+
+
+.bio{
+    min-height: 88vh;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.inline-link:hover{
+    color: #008B8B;
+}
+
+
+.img-container{
+    height: 45%;
+    width: 45%;
+    position: relative;
+    margin: 0 auto;
+    top: 1vh;
+}
+
+.img-fluid{
+    border-radius: 10px;
+}
+
+.portfolio-section{
+    width: 100vw;
+    padding: 1.5vh 1vw;
+}
+
+
+
+.grey-bg{
+    background-color: rgba(35,40,45,1);
+    color: whitesmoke;
+}
+
+.white-bg{
+    background-color: whitesmoke;
+    color: rgba(35,40,45,1)
+}
+
+.port-img-container{
+    position: absolute;
+    margin-top: 50%;
+}
+
+.portfolio-header{
+    font-size: 1.1rem;
+    color: #008B8B;
+}
+
+.portfolio-desc{
+    font-size: 0.70rem;
+}
+
+.port-link{
+    background-color: #008B8B;
+    color: whitesmoke;
+    padding: 1vh 1vw;
+    border-radius: 8px;
+}
+
+
+.sticky-footer{
+    position: absolute;
+    bottom: 0.5vh;
+    height: 100px;
+    width: 90%;
+    left: 50%;
+    transform: translate(-50%);
+    
+}
+
+
+.social-images{
+    position: absolute;
+    z-index: 10;
+}
+
+.footer-text{
+    color: whitesmoke;
+}
+
+
+
+
+.blue-text {
+    color:#008B8B;
+}
+
+
+a{
+    color: whitesmoke;
+}
+
+.inline-link:hover{
+    color: #008B8B;
+}
+
+.port-link:hover{
+    color: whitesmoke;
+}
+
+.form-box{
+    background-color: rgba(35,40,45,1);
+    text-align: left;
+}
+
+#form-header{
+    padding-top: 1vh;
+}
+
+label{
+    margin-top: 3vh;
+}
+
+input, textarea{
+    font-size: 0.9rem;
+    width: 90%;
+}
+
+textarea{
+    height: 15vh;
+}
+
+.submit-form{
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.submit-form{
+    background-color: #27ae60;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 4px 10px;
+    color: black;
+}
+
+.content-about {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 12%;
+    z-index: 999;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: whitesmoke;
+    font-size: 14px;
+}
+
+.lang-img{
+    height: 50px;
+    filter: invert(27%) sepia(94%) saturate(1924%) hue-rotate(161deg) brightness(93%) contrast(106%) grayscale(100%);
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+.fab, .fas{
+    padding: 10px;
+    color: #008B8B;
+    font-size: 1.5rem;
+}
+
+@media(min-width: 1500px){
+
+    .nav-item{
+        padding-left: 2vw;
+    }
+
+
+}
+
+@media(min-width: 1200px){
+    .mobile-nav{
+        display: none;
+    }
+
+    #fullNav{
+        display: flex;
+    }
+
+    .bio > .responsive-text{
+        position: relative;
+        top: 15vh;
+
+    }
+}
+
+
+
+
+@media(min-width: 769px){
+
+    
+
+    .content{
+        top: 30%;
+    }   
+
+    .responsive-text{
+        font-size: 22px;
+
+    }
+
+    .fab, .fas{
+        padding: 20px;
+        color: #008B8B;
+        font-size: 2rem;
+    }
+
+    .img-container{
+        height: 25%;
+        width: 25%;
+    }
+
+
+
+    .bio{
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .portfolio-section{
+        width: 60%;
+        margin-bottom: 8vw;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 10px;
+    }
+
+    .port-img-container{
+        margin-top: 0%;
+        position: relative;
+    }
+
+    .portfolio-desc{
+        font-size: 1rem;
+    }
+
+    .form-box{
+        border-radius: 10px;
+        width: 65%;
+    }
+    
+}
+
+@media(min-width: 600px){
+    .responsive-text{
+        font-size: 18px;
+    }
+}
+
+@media(max-width: 321px){
+    .responsive-text{
+        font-size: 15px;
+    }
+}
+
+@media(max-height: 550px){
+    #dropbtn{
+        font-size: 0.8rem;
+        padding: 0 1vw;
+    }
+
+    .port-img-container {
+        margin-top: 15%;
+    }
+}
+
+
+
+
+
+
+
