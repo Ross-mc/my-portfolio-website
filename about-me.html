@@ -11,10 +11,12 @@
 
     <body>
         <header>
-            <nav class="justify-content" id="fullNav">
-                <div class="nav-list">
-                    <div class="nav-item"><a href="index.html" class="navLink">Home</a></div>
-                    <div class="nav-item"><a href="#top" class="current">About Me</a></div>
+            <nav id="fullNav">
+                <div class="nav-list justify-content">
+                    <div class="nav-item"><a href="index.html" class="current">Home</a></div>
+                    <div class="nav-item"><a href="#top" class="navLink">About Me</a></div>
+                </div>
+                <div class="nav-list justify-content-end">
                     <div class="nav-item"><a href="my-portfolio.html" class="navLink">Portfolio</a></div>
                     <div class="nav-item"><a href="mailto:rossmci90@hotmail.co.uk" class="navLink">Contact</a></div>
                 </div>
@@ -33,30 +35,34 @@
         <a id="top"></a>
         <div class="bg-img"></div>
         <div class="my-container">
-            <div class="content-about">
-                <p class="responsive-text">Hello and welcome to my website. My name is <a href="index.html" class="blue-text inline-link">Ross McIntyre</a> and I am a web developer / software engineer.</p>
-                <p class="responsive-text">
-                    I am currently employed as a Geotechnical Engineer, a career I have been involved with for the last 7 years since graduating with a degree in Geology.
-                    As part of my role I have to assess large datasets and make calculations based upon that data. The company I worked for utilised outdated methods
-                    which involved manually completing these calculations. I developed an interest in automating that work, which was simply done with Excel functions. This
-                    project lead me to an interest in software development and I have been teaching myself web development and software engineering since mid 2020, through
-                    various resources such as <a class="blue-text inline-link" href="freecodecamp.org">Free Code Camp</a> and <a class="blue-text inline-link" href="udemy.com">Udemy</a>.
-                </p>
-                <p class="responsive-text">
-                    To advance my knowledge and skills, I am currently enrolled on the University of Manchester Full Stack Web Development Coding Bootcamp and I am due to graduate 
-                    this course in March 2021. The course is part time during evenings and weekends and I will be full time employed whilst undertaking the course. The course content
-                    includes HTML5, CSS3, JavaScript, jQuery, Bootstrap, Express.js, React.js, Node.js, MongoDB and MySQL.
-                </p>
-                <p class="responsive-text">
-                    I have experience in HTML, CSS, JavaScript, jQuery, Node.js, Express.js, mongoDB and Python. Please view my <a class="blue-text inline-link" href="portfolio.html">Portfolio</a> to see the various projects I have been working on.
-                </p>
-                <img class="lang-img img-fluid" id="html-logo" src="assets/html5.svg" alt="HTML5 logo">
-                <img class="lang-img img-fluid" id="css-logo" src="assets/css3.svg" alt="CSS3 logo">
-                <img class="lang-img img-fluid" id="bootstrap-logo" src="assets/getbootstrap-ar21.svg"  alt="Bootstrap Logo">
-                <img class="lang-img img-fluid" id="js-logo" src="assets/javascript.svg" alt="JavaScript Logo">
-                <img class="lang-img img-fluid" id="jquery-logo" src="assets/jquery-ar21.svg" alt="jQuery Logo">
-                <img class="lang-img img-fluid" id="python-logo" src="assets/python-3.svg" alt="Python Logo">
-            </div>
+            <section class="content">
+                <div class="bio">
+                    <p class="responsive-text">Hello and welcome to my website. My name is <a href="index.html" class="blue-text inline-link">Ross McIntyre</a> and I am a web developer / software engineer.</p>
+                    <p class="responsive-text">
+                        I am currently employed as a Geotechnical Engineer, a career I have been involved with for the last 7 years since graduating with a degree in Geology.
+                        As part of my role I have to assess large datasets and make calculations based upon that data. The company I worked for utilised outdated methods
+                        which involved manually completing these calculations. I developed an interest in automating that work, which was simply done with Excel functions. This
+                        project lead me to an interest in software development and I have been teaching myself web development and software engineering since mid 2020, through
+                        various resources such as <a class="blue-text inline-link" href="freecodecamp.org">Free Code Camp</a> and <a class="blue-text inline-link" href="udemy.com">Udemy</a>.
+                    </p>
+                    <p class="responsive-text">
+                        To advance my knowledge and skills, I am currently enrolled on the University of Manchester Full Stack Web Development Coding Bootcamp and I am due to graduate 
+                        this course in March 2021. The course is part time during evenings and weekends and I will be full time employed whilst undertaking the course. The course content
+                        includes HTML5, CSS3, JavaScript, jQuery, Bootstrap, Express.js, React.js, Node.js, MongoDB and MySQL.
+                    </p>
+                    <p class="responsive-text">
+                        I have experience in HTML, CSS, JavaScript, jQuery, Node.js, Express.js, mongoDB and Python. Please view my <a class="blue-text inline-link" href="portfolio.html">Portfolio</a> to see the various projects I have been working on.
+                    </p>
+                    <div class="lang-container">
+                        <img class="lang-img img-fluid" id="html-logo" src="assets/html5.svg" alt="HTML5 logo">
+                        <img class="lang-img img-fluid" id="css-logo" src="assets/css3.svg" alt="CSS3 logo">
+                        <img class="lang-img img-fluid" id="bootstrap-logo" src="assets/getbootstrap-ar21.svg"  alt="Bootstrap Logo">
+                        <img class="lang-img img-fluid" id="js-logo" src="assets/javascript.svg" alt="JavaScript Logo">
+                        <img class="lang-img img-fluid" id="jquery-logo" src="assets/jquery-ar21.svg" alt="jQuery Logo">
+                        <img class="lang-img img-fluid" id="python-logo" src="assets/python-3.svg" alt="Python Logo">
+                    </div>
+                </div>
+            </section>
             <footer class="sticky-footer">
                 <div class="socialImages">
                     <a href="https://codepen.io/ross-mc"><i class="fab fa-codepen fa-2x"></i></a>

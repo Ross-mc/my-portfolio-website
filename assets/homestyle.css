@@ -18,6 +18,11 @@ body{
 
 }
 
+.nav-list{
+    width: 100%;
+    text-align: right;
+}
+
 #fullNav{
     display: none;
     position: fixed;
@@ -25,6 +30,13 @@ body{
     left: 0;
     z-index: 1000;
     margin-top: 2vh;
+    width: 100%;
+}
+
+.justify-content-end{
+    text-align: right;
+    position: relative;
+    left: 35%;
 }
 
 
@@ -155,7 +167,7 @@ body{
 .responsive-text{
     font-size: 16px;
     width: 95%;
-    margin: 1vh auto;
+    margin: 1.5vh auto;
 }
 
 
@@ -308,12 +320,29 @@ textarea{
     font-size: 14px;
 }
 
+.lang-container{
+    position: relative;
+    top: 0;
+    width: 95%;
+    margin: 10px 10px 10px 10px;
+
+}
+
 .lang-img{
     height: 50px;
     filter: invert(27%) sepia(94%) saturate(1924%) hue-rotate(161deg) brightness(93%) contrast(106%) grayscale(100%);
-    margin-top: 40px;
+    margin-top: 10px;
     margin-left: 10px;
     margin-bottom: 10px;
+}
+
+@media(max-width: 768px){
+
+    
+    .lang-img{
+        height: 30px;
+        margin-top: 20px;
+    }
 }
 
 
@@ -345,11 +374,19 @@ textarea{
         display: flex;
     }
 
+    .bio{
+        width: 60%;
+    }
+
     .bio > .responsive-text{
         position: relative;
         top: 15vh;
-
     }
+
+    .lang-container{
+        top: 15vh;
+    }
+
 }
 
 
@@ -382,7 +419,7 @@ textarea{
 
 
     .bio{
-        width: 60%;
+        width: 80%;
         margin: 0 auto;
     }
 

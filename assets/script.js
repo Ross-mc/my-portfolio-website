@@ -7,7 +7,7 @@ $(function(){
     });
 
     $("#dropbtn").click(function(){
-        $(".dropdown-link").css("display", "block").animate({height: "33.33vh", lineHeight: "33.33vh"}, 1000);
+        $(".dropdown-link").css("display", "block").animate({height: "25vh", lineHeight: "25vh"}, 1000);
         $("#dropbtn").css("display", "none");
         $("#close").css("display", "block")
     });
