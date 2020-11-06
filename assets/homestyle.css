@@ -387,6 +387,10 @@ textarea{
         top: 15vh;
     }
 
+    .responsive-text{
+        width: 80%;
+    }
+
 }
 
 
